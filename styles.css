@@ -1,0 +1,523 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.brand{
+    text-align: center;
+    background-image: url('/images/hero.png');
+    /* width: 70vw;
+    height: 98vh; */
+    background-size: 100% 100%;
+    height: 98vh;
+    padding-top: 50px;
+    
+}
+.brand-header{
+    
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 80px;
+    color: white;
+ 
+}
+
+.login{
+    display: flex;
+    gap: 20px;
+    color:white ;
+    padding-right: 80px;
+
+}
+.brand-title{
+    margin-top: 20px;
+    
+    
+    
+}
+.title-head{
+    font-weight: bold;
+    font-size: 40px;
+    color: aliceblue;
+    padding-top: 40px;
+}
+.title-sub{
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
+.brand-home {
+    display: flex;
+    justify-content: space-around;
+    gap: 20%;
+    
+}
+.brand-home a{
+    color: white;
+}
+.member{
+    background-color: #23a6f0;
+    padding: 3px;
+    border-radius: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    font-size: 12px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: white;
+}
+.brand-box1{
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.brand-box2{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.card{
+    height: 20vh;
+    width: 100% 100%;
+    display: flex;
+    gap: 20px;
+    background-color:rgba(250,250,250,255);
+    text-align: center;
+    padding-left: 200px;
+    
+}
+.card1{
+    background-color: rgba(255,255,255,255);
+    margin-top: -80px;
+    padding: 20px;
+
+}
+.card2{
+    background-color:rgba(255,255,255,255);
+    margin-top: -80px;
+    padding: 20px;
+
+}
+.card3{
+    background-color: rgba(35,166,240,255);
+    margin-top: -80px;
+    padding: 20px;
+    
+}
+.card ion-icon{
+    height: 25%;
+    width: 25%;
+    color:aqua;
+}
+.card3 ion-icon{
+    height: 25%;
+    width: 25%;
+    color: aliceblue;
+}
+.set{
+    height: 40vh;
+    width: 100% 100%;
+    display: flex;
+    padding-left: 200px;
+    gap: 120px;
+    padding-top: 70px;
+    
+}
+.set ion-icon{
+    height: 30%;
+    width: 30%;
+    color: #23a6f0;
+}
+/* industry */
+.industry{
+    height: 25vh;
+    width: 100% 100%;
+    background-color:#fafafa;
+    text-align: center;
+    padding-top: 80px;
+}
+/* profile */
+.profile{
+    background-color:#fafafa;
+    display: flex;
+    padding-left: 180px;
+    padding-right:180px ;
+    gap: 20px;
+    height: 50vh;
+    width: 100% 100%;
+    
+}
+.profile img{
+    width: 40%;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.profile1, .profile2, .profile3{
+    border: 1px solid lightgray;
+    background-color: white;
+}
+.profile ion-icon{
+    background-color: yellow;
+}
+/* vector */
+.vector{
+    height: 30vh;
+    width: 100% 100%;
+    display: flex;
+    gap: 100px;
+    padding-left:200px ;
+    padding-top: 100px;
+    background-color:#fafafa;
+}
+.profile p{
+    padding-left: 60px;
+}
+.vector img{
+height: 40px;
+}
+
+/* subscribe */
+.subscribe{
+    background:linear-gradient(to right, #064588, #3b3988, #5f3088, #9a2288, #cf1588);
+    display: flex;
+    padding: 5px ;
+    /* justify-content: space-around; */
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    width: 65vw;
+    
+}
+.subscribe , .input-group{
+    margin-left: 10%;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+/* padding-left: 180px;
+padding-right: 100px;
+width: 100% 100%;*/
+background-color: #fafafa; 
+}
+.input-group{
+    background-color: white;
+    border-radius: 5px;
+
+    display: flex;
+    gap: 0;
+    height: 40px;
+    
+}
+.input-group input {
+    border: none;
+    outline: none;
+}
+.input-group button{
+    border-radius: 5px;
+    height: 2rem;
+    width: 80px;
+    padding: 0;
+    border: none;
+    height: 100%;
+    color: white;
+    background-color: hsl(196, 67%, 45%);
+}
+/* pricing */
+.pricing{
+    height: 25vh;
+    width: 100% 100%;
+    text-align: center;
+    padding-top: 40px;
+    background-color:#fafafa ;
+}
+.pricing h1{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+/* organizer */
+.organizer{
+    width: 100% 100%;
+    height: 410px;
+    display: flex;
+    /* padding-left: 200px; */
+    justify-content: center;
+    gap: none;
+    padding-bottom: 20px;
+    font-size: 20px;
+    background-color: #fafafa;
+}
+.organizer ion-icon{
+    color: #2dc071;
+}
+.organizer .Try{
+    text-align: center;
+    padding: 20px;
+    background-color: #23a6f0;
+    width: 15vw;
+    height: 1vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #23a6f0;
+}
+.top{
+    text-align: center;
+    color: #848484;
+    font-weight: bold;
+}
+.organizer #head1{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.organizer p{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.organizer .month{
+    text-align: center;
+    color: #3cb0f2;
+}
+.free{
+    border: 1px solid #23a6f0;
+    font-size: 15px;
+
+}
+.standard{
+    background-color: #252b42;
+    border-radius: 5px;
+    color: white;
+    flex-wrap: wrap;
+    margin-top: -25px;
+    font-size: 15px;
+    
+
+}
+
+.premium{
+    border: 1px solid#23a6f0;
+    font-size: 15px;
+
+}
+
+/* black */
+.black{
+    background-color: rgba(37,43,66,255);
+    width: 100% 100%;
+    height: 80vh;
+    display: flex;
+    text-align: center;
+}
+.black img{
+    width: 300px;
+}
+.branches{
+    padding: 50px;
+    color: white;
+}
+.continent{
+    padding-top: 50px;
+}
+/* book */
+.book{
+    height: 100% 100%;
+    display: flex;
+    padding-left: 200px;
+    background-color:#fafafa ;
+}
+.book img{
+height: 80vh;
+margin-top: -200px;
+}
+.book-input{
+    height: 80vh;
+    width: 50vw;
+    margin-top: -200px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    
+}
+.book-input input{
+    width: 45vw;
+    height: 5vh;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+
+}
+.book-input #label{
+    justify-content: flex-start;
+    padding-right: 400px;
+}
+.book-input .blue input{
+background-color:#23a6f0 
+}
+.book-input ::placeholder{
+    color: white;
+    text-align: center;
+}
+/* div contact */
+.contact{
+    width: 100% 100%;
+    height: 5vh;
+    display: flex;
+    text-align: center;
+    padding: 150px;
+    gap: 300px;
+    background-color: #fafafa;
+}
+.contactus p{
+    background-color:#23a6f0 ;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.about{
+    width: 100% 100%;
+    height: 30vh;
+    display: flex;
+    padding-left: 200px;
+    gap: 50px;
+    padding-top: 20px;
+}
+.get ion-icon{
+    color: #23a6f0;
+}
+/* div last */
+.last{
+    width: 100% 100%;
+    height: 5vh;
+    background-color: #fafafa;
+    display: flex;
+    padding-left: 200px;
+    gap: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.icons{
+    display: flex;
+    gap: 50px;
+    color: #23a6f0;
+}
+@media screen and (max-width:1023px){
+    .brand{
+        display: flex;
+        flex-wrap: wrap;
+        background-size: 100% 100%;
+        padding-right: 0%;
+    }
+
+    .brand-header{
+        display: flex;
+       flex-direction: column;
+    }
+    .box{
+        padding-left: 100px;
+        border-radius: 20px;
+        height:fit-content;
+    }
+  
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        padding: 20px;
+        margin-top: 60px;
+    }
+
+
+    .set{
+        display: flex;
+        flex-direction: column;
+        padding-top: 120px;
+        gap: 30px;
+        height: 60vh;
+        padding-left: 5px;
+        align-items: center;
+        
+    }
+
+    .profile{
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        gap: 20px;
+        height: 60vh;
+        padding-left: 5px;
+        
+    }
+
+    .vector{
+        display: flex;
+        flex-direction: column;
+        padding-top: 500px;
+        gap: 30px;
+        height: 60vh;
+        padding-left: 5px;
+        align-items: center;
+        
+    }
+
+    .input-container{
+        justify-content: flex-start;
+
+    }
+    .subscribe{
+        flex-direction: column;
+    }
+
+        .organizer{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 400px;
+    }
+    .black{
+        margin-top: 420px;
+    }
+   .book{
+    display: flex;
+    flex-direction: column;
+    margin-top: 220px;
+    
+   }
+   .contact{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+
+   }
+   .consult{
+    margin-top: -150px;
+   }
+
+   .about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-top: -150px;
+   }
+   .last{
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: flex-start;
+   }
+}
